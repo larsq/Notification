@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Notification</string>
+    <string name="copy_from_clipboard_label">Copy From Clipboard</string>
+    <string name="update_text_label">Update</string>
+    <string name="update_close_label">Update Notification</string>
+    <string name="clear_exit">Clear Notification</string>
+    <string name="content_title_desc">Notification Title</string>
+    <string name="content_desc">Notification content</string>
+    <string name="default_value_1">no value</string>
+    <string name="default_value_2">no value</string>
+    <string name="default_value_3">no value</string>
+</resources>

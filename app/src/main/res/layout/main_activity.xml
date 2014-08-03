@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_activity_layout"
+    android:padding="@dimen/main_activity_padding">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/content_title"
+        android:editable="true"
+        android:contentDescription="@string/content_title_desc"
+        android:singleLine="true"
+        android:inputType="textShortMessage|text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textShortMessage|text"
+        android:contentDescription="@string/content_desc"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_close_label"
+        android:id="@+id/update_close"
+        android:layout_margin="10dip"
+        android:clickable="true"
+        android:onClick="actionUpdate"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_exit"
+        android:id="@+id/clear_exit"
+        android:layout_margin="10dip"
+        android:clickable="true"
+        android:onClick="actionCancel"/>
+
+</LinearLayout>
